@@ -37,5 +37,5 @@
 	$ep = 'localhost';
     $db = 'country_schema';
     $un = 'root';
-    $pw = $ssm_client;
+    $pw = $region;
 ?>
