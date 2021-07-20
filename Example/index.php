@@ -14,11 +14,8 @@
 	<br>
 	<?php
 		// Get the application environment parameters from the Parameter Store.
-		include 'get-parameters.php';
-		echo $ep;
-		echo $db;
-		echo $un;
-		echo $pw;
+		include ('getAppParameters.php');
+
 		// Display the server metadata information if the showServerInfo parameter is true.
 	
 	?>
