@@ -14,7 +14,7 @@
   
   
     # Retrieve settings from Parameter Store
-    $result = $ssm_client->GetParametersByPathAsync(['Path' => '/example/']);
+    $result = $ssm_client->GetParametersByPathAsync(['Path' => '/example/', 'WithDecryption' => true]);
 	
 	$ep = '';
     $db = '';
