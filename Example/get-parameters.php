@@ -22,9 +22,9 @@
     $pw = '';
     
 	# Extract individual parameters
-	foreach($result['Parameters'] as $p) {
-		$values[$p['Name']] = $p['Value'];
-	}
+	#foreach($result['Parameters'] as $p) {
+	#	$values[$p['Name']] = $p['Value'];
+	#}
 
     #$ep = $values['/example/endpoint'];
     #$un = $values['/example/username'];
