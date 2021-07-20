@@ -10,7 +10,6 @@
      'region'  => $region
   ]);
   
-  try {
     # Retrieve settings from Parameter Store
     $result = $ssm_client->GetParametersByPath(['Path' => '/example/', 'WithDecryption' => true]);
 
@@ -32,9 +31,6 @@
 	echo $un;
 	echo $pw;
 	
-  }
-  catch (Exception $e) {
 
-  }
 
 ?>
