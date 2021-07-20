@@ -27,6 +27,10 @@
     $db = 'country_schema';
     $un = 'root';
     $pw = 'root';
+	echo $ep;
+	echo $db;
+	echo $un;
+	echo $pw;
 	
   }
   catch (Exception $e) {
