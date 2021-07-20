@@ -34,10 +34,7 @@
 	
   }
   catch (Exception $e) {
-    $ep = 'localhostt';
-    $db = 'country_schema';
-    $un = 'root';
-    $pw = 'root';
+
   }
 
 ?>
