@@ -14,7 +14,7 @@
   
   
     # Retrieve settings from Parameter Store
-    #$result = $ssm_client->GetParametersByPath(['Path' => '/example/']);
+    $result = $ssm_client->GetParametersByPathAsync(['Path' => '/example/']);
 	
 	$ep = '';
     $db = '';
@@ -37,5 +37,5 @@
 	$ep = 'localhost';
     $db = 'country_schema';
     $un = 'root';
-    $pw = $region;
+    $pw = 'root';
 ?>
