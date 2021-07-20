@@ -22,17 +22,17 @@
     $pw = '';
     
 	# Extract individual parameters
-	#foreach($result['Parameters'] as $p) {
-	#	$values[$p['Name']] = $p['Value'];
-	#}
+	foreach($result['Parameters'] as $p) {
+		$values[$p['Name']] = $p['Value'];
+	}
 
-    #$ep = $values['/example/endpoint'];
-    #$un = $values['/example/username'];
-    #$pw = $values['/example/password'];
-    #$db = $values['/example/database'];
+    $ep = $values['/example/endpoint'];
+    $un = $values['/example/username'];
+    $pw = $values['/example/password'];
+    $db = $values['/example/database'];
     
-	$ep = 'localhost';
-    $db = 'country_schema';
-    $un = 'root';
+	#$ep = 'localhost';
+    #$db = 'country_schema';
+    #$un = 'root';
     $pw = $result;
 ?>
