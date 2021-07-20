@@ -22,20 +22,20 @@
     $pw = '';
     
 	# Extract individual parameters
-	#foreach($result['Parameters'] as $p) {
-	#	if ($p['Name'] == '/example/endpoint') $ep = $p['Value'];
-	#	if ($p['Name'] == '/example/username') $un = $p['Value'];
-	#	if ($p['Name'] == '/example/password') $pw = $p['Value'];
-	#	if ($p['Name'] == '/example/database') $db = $p['Value'];
-	#}
+	foreach($result['Parameters'] as $p) {
+		if ($p['Name'] == '/example/endpoint') $ep = $p['Value'];
+		if ($p['Name'] == '/example/username') $un = $p['Value'];
+		if ($p['Name'] == '/example/password') $pw = $p['Value'];
+		if ($p['Name'] == '/example/database') $db = $p['Value'];
+	}
 
     #$ep = $values['/example/endpoint'];
     #$un = $values['/example/username'];
     #$pw = $values['/example/password'];
     #$db = $values['/example/database'];
     
-	$ep = 'localhost';
-    $db = 'country_schema';
-    $un = 'root';
-    $pw = 'root';
+	#$ep = 'localhost';
+    #$db = 'country_schema';
+    #$un = 'root';
+    #$pw = 'root';
 ?>
