@@ -14,7 +14,7 @@
   
   
     # Retrieve settings from Parameter Store
-    $result = $ssm_client->GetParametersByPath(['Path' => '/example/']);
+    #$result = $ssm_client->GetParametersByPath(['Path' => '/example/']);
 	
 	$ep = '';
     $db = '';
