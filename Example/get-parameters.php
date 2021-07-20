@@ -34,5 +34,5 @@
 	#$ep = 'localhost';
     #$db = 'country_schema';
     #$un = 'root';
-    $pw = $result;
+    #$pw = $result;
 ?>
